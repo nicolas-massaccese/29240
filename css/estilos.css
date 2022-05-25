@@ -147,18 +147,31 @@ h1{
     position: relative;
 }
 
-.banner a{
+a.botton_skew{
     top: 30px;
     height: 30px;
     width: 150px;
     border: solid white 1px;
     display: block;
+    transform: skewX(-9deg);
     text-align: center;
     line-height: 30px;
     color: white;
     position: relative;
     text-decoration: none;
+    transition: 1.5s;
 }
+
+a.botton_skew:hover{
+    background-color: white;
+    border: solid white 1px;
+    width: 180px;
+}
+a.botton_skew:hover p{
+    color: black;  
+    width: 180px;
+}
+
 
 
 a.botton_skew p{
@@ -170,6 +183,8 @@ a.botton_skew p{
     font-size: 17px;
     color: white;
     position: relative;
+    transform: skewX(9deg);
+    transition: 2s;
 }
 
 
@@ -183,6 +198,7 @@ a.botton_skew p{
 
 .productos img{
     width: 100%;
+    transition: 1.5s;
 }
 .section1_encabezado{
     width: 100%;
@@ -204,13 +220,20 @@ a.botton_skew p{
     /* background-color: aqua; */
     padding: 10px 20px 0px 20px;
 }
-
+div.fondo_skew{
+    height: 30px;
+    width: 280px;
+    background-color: black;
+    transform: skewX(-9deg);
+}
 h2{
     text-align: center;
     line-height: 30px;
+    color: white;
     color: rgb(0, 0, 0);
     font-family: "FuturaStd-BoldOblique";
     font-size: 18px;
+    transform: skewX(9deg);
 }
 .productos{
     display: flex;
@@ -221,7 +244,7 @@ h2{
 }
 
 .productos:hover img{
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .productos p{
@@ -314,10 +337,18 @@ footer{
     height: 80px;
     /* background-color: rgb(161, 14, 14); */
 }
-.shipping P{
+.shipping p{
     color: white;
     font-family: "Montserrat-Regular";
     font-size: 11px;
+}
+
+.shipping a:hover p{
+    color: rgb(139, 209, 147)
+}
+
+.shipping a:hover img{
+    margin-top: -10px;
 }
 
 .logo_footer{
@@ -433,7 +464,13 @@ footer a{
     }
 .bajada_nota{
     padding: 10px 20px 20px 20px;
+    transition: 1s;
 }
+
+.bajada_nota:hover{
+    background-image: linear-gradient(to right, rgb(139, 209, 147), white, white);
+}
+
 
 .grid_container_comunidad{
     height: auto;
