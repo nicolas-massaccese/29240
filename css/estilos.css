@@ -147,7 +147,7 @@ h1{
     position: relative;
 }
 
-a{
+.banner a{
     top: 30px;
     height: 30px;
     width: 150px;
@@ -158,11 +158,10 @@ a{
     color: white;
     position: relative;
     text-decoration: none;
-    font-family: "Montserrat-Italic";
-
 }
 
-a p{
+
+a.botton_skew p{
     width: 150px;
     display: block;
     text-align: center;
@@ -210,6 +209,7 @@ h2{
     text-align: center;
     line-height: 30px;
     color: rgb(0, 0, 0);
+    font-family: "FuturaStd-BoldOblique";
     font-size: 18px;
 }
 .productos{
@@ -465,4 +465,275 @@ footer a{
     color: rgb(131, 131, 131);
     font-family: "Montserrat-Regular";
     font-size: 15px;
+}
+
+@media only screen and (min-width: 426px){
+
+    .marquesina{
+        font-size: 10px;
+    }
+    .marquesina img{
+        width: 11px;
+    }
+    .flex_contenedor_padre{
+    padding: 40px;
+    }
+    
+    .hamburguesa img{
+        height: 20px;
+    }
+    
+    .logo{
+        width: 125px;
+    }
+    
+    .lupa_carrito{
+        height: 25px;
+        width: 50px;
+    }
+    div.lupa_carrito img{
+        height: 25px;
+    }
+    
+
+    .banner{
+        padding: 20px 40px;
+        background-position: -80px;
+        /* background-color: rgb(71, 135, 135); */
+        }
+        
+    .grid_container_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.comunidad{
+        padding: 20px 40px;
+        background-position: -120px;
+}
+.banner_comunidad{
+    padding: 20px 40px;
+    background-position: -410px;
+    }
+
+.shipping{
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.logo_footer{
+    justify-content: space-between;
+    padding: 40px;
+}
+.empresa_footer{
+    padding: 40px;
+}
+.contenido_ayuda{
+    padding: 40px;
+    justify-content: space-between;
+}
+}
+
+@media only screen and (min-width: 498px){
+
+    .marquesina{
+        font-size: 10px;
+    }
+    .marquesina img{
+        width: 11px;
+    }
+
+    .banner{
+        background-position: -10px;
+        /* background-color: rgb(71, 135, 135); */
+        }
+        
+    .grid_container_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.comunidad{
+        background-position: -50px;
+}
+.banner_comunidad{
+    padding: 20px 40px;
+    background-position: -410px;
+    }
+    .section1_encabezado{
+        padding: 20px 80px;
+    }
+    .bajada_nota{
+        padding: 20px 40px;
+    }
+}
+
+
+@media only screen and (min-width: 563px){
+
+    .banner{
+        background-position: center;
+        }
+        
+    .grid_container_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.comunidad{
+        background-position: center;
+}
+.banner_comunidad{
+    padding: 20px 40px;
+    background-position: -380px;
+    }
+}
+
+
+@media only screen and (min-width: 652px){
+
+    .banner_comunidad{
+        padding: 20px 40px;
+        background-position: -210px;
+        }
+    }
+    
+@media only screen and (min-width: 768px){
+
+    .banner{
+        background-position: center;
+        }
+        
+    .grid_container_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section.comunidad{
+        padding: 20px 120px;
+        background-position: center;
+}
+
+.banner{
+    padding: 20px 120px;
+}
+    
+.banner_comunidad{
+    padding: 20px 120px;
+    background-position: center;
+    }
+
+.section1_encabezado{
+        padding: 20px 180px;
+    }
+
+    .bajada_nota{
+        padding: 20px 120px;
+    }
+
+
+.grid_container_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.shipping{
+justify-content: space-evenly;
+padding: 20px;
+}
+
+.logo_footer{
+align-items: flex-start;
+justify-content: space-around;
+padding: 20px;
+border-bottom: none;
+}
+.empresa_footer{
+padding: 20px 10px;
+border-bottom: none;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.empresa_footer p{
+    font-size: 10px;
+    }
+.contenido_ayuda{
+padding: 20px;
+justify-content: space-around;
+border-bottom: none;
+}
+h5{
+    font-size: 13px;
+}
+}
+
+@media only screen and (min-width: 1024px){
+
+    .banner{
+        background-position: center;
+        }
+        
+    .grid_container_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section.comunidad{
+        background-position: center;
+}
+
+.banner{
+    padding: 20px 200px;
+
+    }
+    
+
+section.comunidad{
+    padding: 20px 200px;
+}
+
+.banner_comunidad{
+    padding: 20px 200px;
+    background-position: center;
+    }
+
+.section1_encabezado{
+        padding: 20px 300px;
+    }
+
+    .bajada_nota{
+        padding: 20px 200px;
+    }
+
+.grid_container_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.shipping{
+justify-content: space-evenly;
+padding: 20px;
+}
+
+.logo_footer{
+align-items: flex-start;
+justify-content: space-around;
+padding: 20px;
+border-bottom: none;
+}
+.empresa_footer{
+padding: 20px 10px;
+border-bottom: none;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.empresa_footer p{
+    font-size: 10px;
+    }
+.contenido_ayuda{
+padding: 20px;
+justify-content: space-around;
+border-bottom: none;
+}
+h5{
+    font-size: 13px;
+}
 }
