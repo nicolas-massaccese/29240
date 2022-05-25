@@ -244,6 +244,7 @@ h2{
 
 .productos:hover img{
     opacity: 0.5;
+    scale: 0.8;
 }
 
 .productos p{
@@ -327,6 +328,7 @@ footer{
 
 .shipping img{
     height: 45px;
+    transition: 0.5s;
 }
 .bajada{
     display:flex ;
