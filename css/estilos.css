@@ -1,0 +1,446 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth ;
+}
+.subir{
+    height: 50px;
+    width: 50px;
+    border: solid white 2px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-image: url(../assets/img/flecha_subir.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 17px;
+}
+
+/* HEADER STYLE */
+header{
+    height:90px;
+    width: 100%;
+    z-index: 98;
+    position: absolute;
+    /* background-color: blue; */
+}
+
+.marquesina{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 8.5px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+.marquesina img{
+    width: 10px;
+    line-height: 30px;
+}
+
+.flex_contenedor_padre{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #0000001c;
+    padding: 20px;
+}
+
+.nav_bar{
+    background-color: aqua;
+    display: none;
+}
+.nav_bar ul li{
+    list-style: none;
+}
+
+.hamburguesa{
+    height: 20px;
+    width: 30px;
+    mix-blend-mode: multiply;
+    /* background-color: bisque; */
+}
+
+.hamburguesa img{
+    height: 17px;
+    text-align: left;
+    mix-blend-mode: multiply;
+}
+
+.logo{
+    color: aqua;
+    width: 120px;
+    align-items: center;
+    display: block;
+    mix-blend-mode: multiply;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+    /* background-color: antiquewhite */
+    ;
+}
+
+.lupa_carrito{
+    height: 25px;
+    width: 45px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.lupa_carrito img{
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    mix-blend-mode: multiply;
+    display: inline;
+
+}
+
+/* MAIN STYLE */
+main{
+    align-items: center;
+    height: 420px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: blue;
+}
+.banner{
+top: 40px;
+height: 420px;
+width: 100%;
+padding: 20px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: -148px;
+}
+
+h1{
+    top: 25px;
+    width: 200px;
+    font-size: 35px;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+}
+
+a{
+    top: 30px;
+    height: 30px;
+    width: 150px;
+    border: solid white 1px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+
+a p{
+    width: 150px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    color: white;
+    position: relative;
+}
+
+
+
+/* PRODUCTOS CATEGORIAS */
+
+.grid_container_productos{
+    height: auto;
+    width: 100%;
+}
+
+.productos img{
+    width: 100%;
+}
+.section1_encabezado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    padding:  20px 0px 20px 0px;
+}
+
+.section1_encabezado p{
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(131, 131, 131);
+    text-align: center;
+    /* background-color: aqua; */
+    padding: 10px 20px 0px 20px;
+}
+
+h2{
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 18px;
+    transform: skewX(9deg);
+}
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.productos:hover img{
+    opacity: 0.7;
+}
+
+.productos p{
+    height: 40px;
+    line-height: 40px;
+    color: rgb(131, 131, 131);
+    /* background-color: blue; */
+    
+
+}
+
+/* SECTION COMUNIDAD StYLE */
+section.comunidad{
+    height: 250px;
+    width: 100%;
+    padding-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -190px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    justify-items: center;
+    }
+
+h3{
+    width: 180px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+}
+
+section a{
+    top: 10px;
+    height: 30px;
+    width: 150px;
+    border: solid white 1px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+/* FOOTER SYLE */
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+
+}
+
+.shipping{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+
+.shipping a{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.shipping img{
+    height: 45px;
+}
+.bajada{
+    display:flex ;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.shipping P{
+    color: white;
+    font-size: 11px;
+}
+
+.logo_footer{
+
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    display: inline;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_footer img{
+    width: 150px;
+}
+
+.redes{
+    display: inline;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+    /* background-color: rgb(34, 20, 128); */
+}
+
+.redes div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 90px;
+    /* background-color: rgb(28, 180, 180); */
+}
+.redes img{
+    height: 30px;
+}
+
+
+.empresa_footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    /* background-color: aquamarine; */
+    padding: 20px;
+}
+
+.empresa_footer p{
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.contenido_ayuda{
+    width: 100%;
+    padding: 20px;
+    display: inline;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contenido_footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    /* background-color: aqua; */
+}
+
+
+.ayuda_footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    /* background-color: aqua; */
+}
+
+h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(139, 209, 147);
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+
+
+.banner_comunidad{
+    top: 40px;
+    height: 420px;
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -450px;
+    background-color: rgb(71, 135, 135);
+    }
+.bajada_nota{
+    padding: 10px 20px 20px 20px;
+}
+
+.grid_container_comunidad{
+    height: auto;
+    width: 100%;
+}
+
+.grid_container_comunidad a{
+    text-decoration: none;
+    width: 100%;
+    background-color: black;
+}
+
+.grid_container_comunidad img{
+    width: 100%;
+}
+
+.grid_container_comunidad h4{
+    text-align: left;
+    line-height: 25px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.grid_container_comunidad h4+p{
+    text-align: left;
+    line-height: 30px;
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+}

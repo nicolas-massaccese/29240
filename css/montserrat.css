@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url("../fonts/Montserrat-Italic.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "FuturaStd-BoldOblique";
+    src: url("../fonts/FuturaStd-BoldOblique.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "FuturaStd-HeavyOblique";
+    src: url("../fonts/FuturaStd-HeavyOblique.otf") format("opentype");
+}
